@@ -7,7 +7,7 @@ public class Post {
     private int post;
     private int date;
     private int time;
-    private boolean like;
+    private boolean islike;
     private int share;
     private int  ownerId;
     private int fromId;
@@ -20,13 +20,20 @@ public class Post {
     private int postSource;
     private int geo;
     private int signerId;
-    private int canPin;
-    private int canDelete;
+    private boolean canPin;
+    private boolean canDelete;
     private int canEdit;
-    private int isPinned;
-    private int markedAsAdsInfo;
+    private boolean isPinned;
+    private boolean markedAsAdsInfo;
     private boolean isFavorite;
     private int postponedId;
+    private int commentsInfo;
+    private int likesInfo;
+    private int repostsInfo;
+    private int viewsInfo;
+
+
+
 
 }
 
